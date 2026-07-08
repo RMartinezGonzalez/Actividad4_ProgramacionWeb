@@ -1197,6 +1197,31 @@ video {
      object-fit: contain;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-\[center_10\%\] {
+  -o-object-position: center 10%;
+     object-position: center 10%;
+}
+
+.object-\[center_50\%\] {
+  -o-object-position: center 50%;
+     object-position: center 50%;
+}
+
+.object-\[center_5\%\] {
+  -o-object-position: center 5%;
+     object-position: center 5%;
+}
+
+.object-\[center_30\%\] {
+  -o-object-position: center 30%;
+     object-position: center 30%;
+}
+
 .p-20 {
   padding: 5rem;
 }
